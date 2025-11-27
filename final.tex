@@ -1,0 +1,858 @@
+%package list
+\documentclass{article}
+\usepackage[top=3cm, bottom=3cm, outer=3cm, inner=3cm]{geometry}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{array}
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+\usepackage{natbib}
+\usepackage{pdfpages}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{svg}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstdefinestyle{ascii-tree}{
+    literate={├}{|}1 {─}{--}1 {└}{+}1 
+}
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{red},
+  keywordstyle=\color{blue}
+}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{array}
+\usepackage{amsmath}
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{N}{@{}m{0pt}@{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\itemEmail}{cperaltam@ulasalle.edu.pe
+
+bpazp@ulasalle.edu.pe
+
+hcastilloa@ulasalle.edu.pe
+
+ahuamanc@ulasalle.edu.pe
+}
+
+\newcommand{\itemStudent}{Carlos Orson Peralta Marreros
+    
+Bran James Paz Patatingo 
+
+Heydy Anyely Castillo Arocutipa
+
+Angelica Giovana Huaman Cuba}
+\newcommand{\itemCourse}{Lenguaje de Programación II}
+\newcommand{\itemCourseCode}{ 
+carlos : 78288004   
+angelica  : 60864535}
+\newcommand{\itemSemester}{III}
+\newcommand{\itemUniversity}{Universidad La Salle}
+\newcommand{\itemFaculty}{Facultad de Ingenierías y Arquitectura}
+\newcommand{\itemDepartment}{Departamento Académico de Ingeniería y Matemáticas}
+\newcommand{\itemSchool}{Carrera Profesional de Ingeniería de Software}
+\newcommand{\itemAcademic}{2025 - B}
+\newcommand{\itemInput}{Del 1 noviembre 2025}
+\newcommand{\itemOutput}{Al 24 de noviembre 2025}
+\newcommand{\itemPracticeNumber}{Proyecto Final}
+\newcommand{\itemTheme}{Soul Knight Fan Remake}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[english,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\AtBeginDocument{\selectlanguage{spanish}}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\refname}{Referencias}
+\renewcommand{\tablename}{Tabla}
+\AtBeginDocument{%
+	\renewcommand\tablename{Tabla}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{30pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{\raisebox{-0.2\height}{\includegraphics[width=3cm]{img/logo_secundario_color.png}}}
+\fancyhead[C]{\fontsize{7}{7}\selectfont	\itemUniversity \\ \itemFaculty \\ \itemDepartment \\ \itemSchool \\ \textbf{\itemCourse}}
+\fancyfoot[L]{}
+\fancyfoot[C]{Página \thepage}
+\fancyfoot[R]{\itemCourse}
+
+% para el codigo fuente
+\usepackage{listings}
+\usepackage{color, colortbl}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{codebackground}{rgb}{0.95, 0.95, 0.92}
+\definecolor{tablebackground}{rgb}{0.0, 0.45, 0.63}
+
+\lstset{frame=tb,
+	language=bash,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3,
+	backgroundcolor=\color{codebackground},
+}
+
+\begin{document}
+	
+	\vspace*{10px}
+	
+	\begin{center}	
+		\fontsize{17}{17} \textbf{ Informe de \itemPracticeNumber}
+	\end{center}
+	\centerline{\textbf{\Large Tema: \itemTheme}}
+
+	\begin{flushright}
+		\begin{tabular}{|M{2.5cm}|N|}
+			\hline 
+			\rowcolor{tablebackground}
+			\color{white} \textbf{Nota}  \\
+			\hline 
+			     \\[30pt]
+			\hline 			
+		\end{tabular}
+	\end{flushright}	
+
+	\begin{table}[H]
+		\begin{tabular}{|x{4.7cm}|x{4.8cm}|x{4.8cm}|}
+			\hline 
+			\rowcolor{tablebackground}
+			\color{white} \textbf{Estudiante} & \color{white}\textbf{Escuela}  & \color{white}\textbf{Asignatura}   \\
+			\hline 
+			{\itemStudent \par \itemEmail} & \itemSchool & {\itemCourse \par Semestre: \itemSemester \par Código: \itemCourseCode}     \\
+			\hline 			
+		\end{tabular}
+	\end{table}		
+	
+	\begin{table}[H]
+		\begin{tabular}{|x{4.7cm}|x{4.8cm}|x{4.8cm}|}
+			\hline 
+			\rowcolor{tablebackground}
+			\color{white}\textbf{Laboratorio} & \color{white}\textbf{Tema}  & \color{white}\textbf{Duración}   \\
+			\hline 
+			\itemPracticeNumber & \itemTheme & 24 días   \\
+			\hline 
+		\end{tabular}
+	\end{table}
+	
+	\begin{table}[H]
+		\begin{tabular}{|x{4.7cm}|x{4.8cm}|x{4.8cm}|}
+			\hline 
+			\rowcolor{tablebackground}
+			\color{white}\textbf{Semestre académico} & \color{white}\textbf{Fecha de inicio}  & \color{white}\textbf{Fecha de entrega}   \\
+			\hline 
+			\itemAcademic & \itemInput &  \itemOutput  \\
+			\hline 
+		\end{tabular}
+	\end{table}
+	
+	\section{Tarea}
+	\begin{itemize}		
+		\item Desarrollar un videojuego 2D basado en Soul Knight, exclusivamente para computadoras o laptops, con skins divertidas, un mapa sencillo e intuitivo. Agregar el modo multiplayer local. Se creará el videojuego en Unity usando tecnologías vistas en clase como threads para el modo multiplayer o para los enemigos que el personaje debe enfrentar.
+		\item Como base conceptual inicial, se implementó una versión de consola del juego en Java llamada "Mini Dungeon Console", que permite entender la mecánica básica del juego antes de desarrollar la versión completa en Unity.
+	\end{itemize}
+		
+	\section{Equipos, materiales y temas utilizados}
+	
+	\subsection{Herramientas de Desarrollo}
+	\begin{itemize}
+		\item \textbf{Control de versiones:}
+		\begin{itemize}
+			\item Git
+			\item GitHub
+			\item Unity Hub + Motor Unity
+		\end{itemize}
+		
+		\item \textbf{IDE y Editores:}
+		\begin{itemize}
+			\item Visual Studio Code
+			\item Eclipse (para prototipo en Java)
+			\item Apache NetBeans (para prototipo en Java)
+		\end{itemize}
+		
+		\item \textbf{Diseño de personajes:}
+		\begin{itemize}
+			\item Photoshop
+			\item Canva
+			\item GIMP
+			\item Krita
+			\item DragonBones
+			\item Aseprite
+		\end{itemize}
+		
+		\item \textbf{Recursos Unity:}
+		\begin{itemize}
+			\item 2D Animation Package
+			\item Cinemachine
+			\item DOTween
+			\item Unity Asset Store
+		\end{itemize}
+		
+		\item \textbf{Sonido:}
+		\begin{itemize}
+			\item Murf IA
+			\item Audio Studio
+			\item Pixabay
+			\item EpidemicSound
+		\end{itemize}
+	\end{itemize}
+	
+	\subsection{Conceptos Técnicos}
+	\begin{itemize}
+		\item Uso de hilos (threads)
+		\item Programación Orientada a Objetos
+		\item Control de versiones con Git
+		\item Cuenta institucional GitHub
+	\end{itemize}
+	
+	\section{URL de Repositorio GitHub}
+	\begin{itemize}
+		\item URL del Repositorio GitHub para clonar o recuperar:
+		\item \url{https://github.com/rescobedoulasalle/pd.git}
+		\item URL para el proyecto final en el Repositorio GitHub:
+		\item \url{https://github.com/rescobedoulasalle/pd/tree/main/Juego%20Base%20para%20la%20consola}
+	\end{itemize}
+	
+	\section{Descripción del Proyecto}
+	
+	\subsection{Concepto General}
+	
+	Soul Knight Fan Remake es un videojuego 2D basado en el popular Soul Knight original. A diferencia del juego original diseñado para móviles, esta versión está optimizada exclusivamente para computadoras y laptops, con controles intuitivos de teclado y mouse.
+	
+	\subsection{Características Principales}
+	
+	\begin{itemize}
+		\item \textbf{Skins divertidas:} Variedad de personajes con diseños creativos
+		\item \textbf{Mapa sencillo e intuitivo:} Diseño de niveles fácil de navegar
+		\item \textbf{Modo multijugador local:} Cooperación entre dos jugadores en la misma máquina
+		\item \textbf{Sistema de habitaciones:} Cada nivel consta de 5 habitaciones conectadas
+		\item \textbf{5 niveles totales:} Progresión con dificultad incremental
+		\item \textbf{Jefe final:} Boss con alta cantidad de vida en el nivel 5
+	\end{itemize}
+	
+	\subsection{Entorno del Juego}
+	
+	La historia del juego es directa y enfocada en la acción:
+	
+	\begin{enumerate}
+		\item El personaje jugable aparece en una habitación inicial equipado con un arma
+		\item Las habitaciones están conectadas por caminos
+		\item Al entrar a una nueva habitación, las puertas se cierran automáticamente
+		\item Aparecen enemigos que el jugador debe derrotar
+		\item Una vez eliminados todos los enemigos, las puertas se abren
+		\item Cada nivel tiene 5 habitaciones
+		\item El juego cuenta con 5 niveles en total
+		\item En el nivel 5 (última habitación) aparece un jefe final con mucha vida
+	\end{enumerate}
+	
+	\subsection{Elementos del Juego}
+	
+	\subsubsection{Items principales}
+	\begin{itemize}
+		\item Personajes jugables
+		\item Enemigos variados
+		\item Jefe final (boss)
+		\item Mapas/Habitaciones
+		\item Objetos consumibles (curas o bebidas)
+		\item Variedad de armas
+	\end{itemize}
+	
+	\section{Prototipo en Java - Mini Dungeon Console}
+	
+	\subsection{Propósito del Prototipo}
+	
+	Con el fin de tener una base inicial con conceptos claros y detallados del videojuego, se creó un prototipo simple para ejecutar desde la terminal (consola). Este prototipo en Java permite entender y probar las mecánicas básicas del juego:
+	
+	\begin{itemize}
+		\item Sistema de movimiento del jugador
+		\item Sistema de movimiento aleatorio de enemigos
+		\item Sistema de combate básico
+		\item Detección de colisiones
+		\item Sistema de vida para jugador y enemigo
+		\item Visualización del mapa en consola
+	\end{itemize}
+	
+	\subsection{Código Fuente Completo}
+	
+	\subsubsection{Archivo: Jugador.java}
+	
+	\begin{lstlisting}[language=Java, caption={Clase Jugador}]
+// Clase base para el personaje jugador
+class Jugador {
+    int vida = 20;
+    int dano = 5;
+    int x = 0, y = 0;
+}
+	\end{lstlisting}
+	
+	\subsubsection{Archivo: Enemigo.java}
+	
+	\begin{lstlisting}[language=Java, caption={Clase Enemigo}]
+// Clase para el enemigo
+class Enemigo {
+    int vida = 10;
+    int dano = 3;
+    int x, y;
+    
+    public Enemigo(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+	\end{lstlisting}
+	
+	\subsubsection{Archivo: MiniDungeon.java (Versión Completa)}
+	
+	\begin{lstlisting}[language=Java, caption={Clase Principal del Juego - MiniDungeon.java}]
+import java.util.Random;
+import java.util.Scanner;
+
+// Clase base para el personaje jugador
+class Jugador {
+    int vida = 20;
+    int dano = 5;
+    int x = 0, y = 0;
+}
+
+// Clase para el enemigo
+class Enemigo {
+    int vida = 10;
+    int dano = 3;
+    int x, y;
+    
+    public Enemigo(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+// Clase principal del juego
+public class MiniDungeon {
+    static final int TAM = 5;
+    static Jugador jugador = new Jugador();
+    static Enemigo enemigo = new Enemigo(3, 3);
+    static Scanner sc = new Scanner(System.in);
+    
+    public static void main(String[] args) {
+        System.out.println("=== MINI DUNGEON CONSOLE ===");
+        System.out.println("Controles: w=arriba, s=abajo, a=izquierda, d=derecha, x=atacar\n");
+        
+        // Bucle principal del juego
+        while (jugador.vida > 0 && enemigo.vida > 0) {
+            mostrarMapa();
+            System.out.print("Mover > ");
+            char mov = sc.next().charAt(0);
+            moverJugador(mov);
+            moverEnemigo();
+            
+            if (enemigo.vida <= 0) break;
+        }
+        
+        // Resultado final
+        if (jugador.vida <= 0) 
+            System.out.println("\n�� Has sido derrotado...");
+        else 
+            System.out.println("\n�� ¡Ganaste la batalla!");
+        
+        sc.close();
+    }
+    
+    // Muestra el mapa en la consola
+    static void mostrarMapa() {
+        System.out.println("\n--- MAPA ---");
+        for (int i = 0; i < TAM; i++) {
+            for (int j = 0; j < TAM; j++) {
+                if (jugador.x == i && jugador.y == j)
+                    System.out.print("P "); // Jugador
+                else if (enemigo.x == i && enemigo.y == j)
+                    System.out.print("E "); // Enemigo
+                else
+                    System.out.print(". "); // Espacio vacio
+            }
+            System.out.println();
+        }
+        System.out.println("❤️ Vida Jugador: " + jugador.vida + 
+                         " | �� Vida Enemigo: " + enemigo.vida);
+    }
+    
+    // Controla el movimiento y ataque del jugador
+    // By Carlos Peralta
+    static void moverJugador(char mov) {
+        switch (mov) {
+            case 'w': 
+                if (jugador.x > 0) jugador.x--; 
+                break;
+            case 's': 
+                if (jugador.x < TAM - 1) jugador.x++; 
+                break;
+            case 'a': 
+                if (jugador.y > 0) jugador.y--; 
+                break;
+            case 'd': 
+                if (jugador.y < TAM - 1) jugador.y++; 
+                break;
+            case 'x':
+                // Sistema de ataque
+                if (jugador.x == enemigo.x && jugador.y == enemigo.y) {
+                    enemigo.vida -= jugador.dano;
+                    System.out.println("⚔️ Buen ataque (-" + jugador.dano + " HP)");
+                } else {
+                    System.out.println("❌ No hay enemigo aqui");
+                }
+                return;
+        }
+    }
+    
+    // Controla el movimiento aleatorio del enemigo
+    static void moverEnemigo() {
+        Random r = new Random();
+        int mov = r.nextInt(4);
+        
+        switch (mov) {
+            case 0: if (enemigo.x > 0) enemigo.x--; break;
+            case 1: if (enemigo.x < TAM - 1) enemigo.x++; break;
+            case 2: if (enemigo.y > 0) enemigo.y--; break;
+            case 3: if (enemigo.y < TAM - 1) enemigo.y++; break;
+        }
+        
+        // Si el enemigo alcanza al jugador, lo ataca
+        if (enemigo.x == jugador.x && enemigo.y == jugador.y) {
+            jugador.vida -= enemigo.dano;
+            System.out.println("�� ¡Te atacan! (-" + enemigo.dano + " HP)");
+        }
+    }
+}
+	\end{lstlisting}
+	
+	\subsection{Explicación del Código}
+	
+	\subsubsection{Clase Jugador}
+	Define las propiedades básicas del personaje jugable:
+	\begin{itemize}
+		\item \texttt{vida}: Puntos de vida del jugador (inicia con 20)
+		\item \texttt{dano}: Daño que inflige al atacar (5 puntos)
+		\item \texttt{x, y}: Posición en el mapa (inicia en 0,0 - esquina superior izquierda)
+	\end{itemize}
+	
+	\subsubsection{Clase Enemigo}
+	Define las propiedades del enemigo:
+	\begin{itemize}
+		\item \texttt{vida}: Puntos de vida del enemigo (inicia con 10)
+		\item \texttt{dano}: Daño que inflige al jugador (3 puntos)
+		\item \texttt{x, y}: Posición inicial (3,3 - cerca del centro del mapa)
+		\item Constructor que permite definir la posición inicial
+	\end{itemize}
+	
+	\subsubsection{Método main()}
+	Contiene el flujo principal del juego:
+	\begin{enumerate}
+		\item Muestra el título y controles
+		\item Inicia el bucle principal que se ejecuta mientras ambos estén vivos
+		\item En cada iteración:
+		\begin{itemize}
+			\item Muestra el mapa actual
+			\item Lee el input del jugador
+			\item Mueve al jugador según el input
+			\item Mueve al enemigo aleatoriamente
+		\end{itemize}
+		\item Al finalizar, muestra el resultado (victoria o derrota)
+	\end{enumerate}
+	
+	\subsubsection{Método mostrarMapa()}
+	Dibuja el estado actual del juego en la consola:
+	\begin{itemize}
+		\item Recorre una matriz de 5x5
+		\item Muestra "P" donde está el jugador
+		\item Muestra "E" donde está el enemigo
+		\item Muestra "." en espacios vacíos
+		\item Muestra las vidas actuales de ambos
+	\end{itemize}
+	
+	\subsubsection{Método moverJugador()}
+	   Procesa el input del jugador:
+	\begin{itemize}
+		\item \texttt{w}: Mueve arriba (decrementa x)
+		\item \texttt{s}: Mueve abajo (incrementa x)
+		\item \texttt{a}: Mueve izquierda (decrementa y)
+		\item \texttt{d}: Mueve derecha (incrementa y)
+		\item \texttt{x}: Ataca si está en la misma posición que el enemigo
+		\item Valida que no se salga de los límites del mapa (0 a TAM-1)
+	\end{itemize}
+	
+	\subsubsection{Método moverEnemigo()}
+	Controla el comportamiento del enemigo:
+	\begin{itemize}
+		\item Genera un número aleatorio entre 0 y 3
+		\item Mueve al enemigo en una dirección aleatoria
+		\item Valida límites del mapa
+		\item Si está en la misma posición que el jugador, lo ataca automáticamente
+	\end{itemize}
+	
+	\section{Compilación y Ejecución del Prototipo Java}
+	
+	\subsection{Requisitos Previos}
+	
+	\begin{itemize}
+		\item Java Development Kit (JDK) 8 o superior instalado
+		\item Variable de entorno JAVA\_HOME configurada
+		\item Terminal o línea de comandos
+	\end{itemize}
+	
+	\subsection{Verificar instalación de Java}
+	
+	\begin{lstlisting}[language=bash,caption={Verificar versión de Java}]
+$ java -version
+$ javac -version
+	\end{lstlisting}
+	
+	La salida debe mostrar la versión instalada, por ejemplo:
+	\begin{lstlisting}
+java version "11.0.12" 2021-07-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.12+8-LTS-237)
+	\end{lstlisting}
+	
+	\subsection{Pasos para Compilar y Ejecutar}
+	
+	\subsubsection{Paso 1: Clonar el repositorio}
+	
+	\begin{lstlisting}[language=bash,caption={Clonar repositorio desde GitHub}]
+$ cd $HOME/lasalle
+$ git clone https://github.com/rescobedoulasalle/pd.git
+$ cd pd/Juego\ Base\ para\ la\ consola
+	\end{lstlisting}
+	
+	\subsubsection{Paso 2: Verificar archivos}
+	
+	\begin{lstlisting}[language=bash,caption={Listar archivos del proyecto}]
+$ ls -la
+	\end{lstlisting}
+	
+	Debe mostrar el archivo \texttt{MiniDungeon.java}
+	
+	\subsubsection{Paso 3: Compilar el código}
+	
+	\begin{lstlisting}[language=bash,caption={Compilar MiniDungeon.java}]
+$ javac MiniDungeon.java
+	\end{lstlisting}
+	
+	Si no hay errores, se generarán los archivos \texttt{.class}:
+	\begin{itemize}
+		\item \texttt{MiniDungeon.class}
+		\item \texttt{Jugador.class}
+		\item \texttt{Enemigo.class}
+	\end{itemize}
+	
+	\subsubsection{Paso 4: Ejecutar el juego}
+	
+	\begin{lstlisting}[language=bash,caption={Ejecutar el juego}]
+$ java MiniDungeon
+	\end{lstlisting}
+	
+	\subsection{Ejemplo de Ejecución}
+		\begin{lstlisting}[caption={Salida en consola del juego}]
+=== MINI DUNGEON CONSOLE ===
+Controles: w=arriba, s=abajo, a=izquierda, d=derecha, x=atacar
+
+--- MAPA ---
+P . . . . 
+. . . . . 
+. . . . . 
+. . . E . 
+. . . . . 
+❤️ Vida Jugador: 20 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. P . . . 
+. . . . . 
+. . . . . 
+. . . E . 
+. . . . . 
+❤️ Vida Jugador: 20 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. P . . . 
+. . . . . 
+. . E . . 
+. . . . . 
+❤️ Vida Jugador: 20 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. P . . . 
+. . . E . 
+. . . . . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 17 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . P E . 
+. . . . . 
+. . . . . 
+❤️ Vida Jugador: 17 | �� Vida Enemigo: 10
+Mover > x
+❌ No hay enemigo aqui
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . P E . 
+. . . . . 
+. . . . . 
+❤️ Vida Jugador: 17 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . P . 
+. . . E . 
+. . . . . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 14 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . E P 
+. . . . . 
+❤️ Vida Jugador: 14 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . P . 
+. . . E . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . E . . 
+. . . P . 
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . E . 
+. . P . . 
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > w
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . P E . 
+. . . . . 
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . P . 
+. . E . . 
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+. . E P . 
+❤️ Vida Jugador: 11 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . E . . 
+. . P . . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 8 | �� Vida Enemigo: 10
+Mover > w
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . P . . 
+. . E . . 
+❤️ Vida Jugador: 8 | �� Vida Enemigo: 10
+Mover > w
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . P . . 
+. . . . . 
+. E . . . 
+❤️ Vida Jugador: 8 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. P . . . 
+. E . . . 
+. . . . . 
+❤️ Vida Jugador: 8 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. P . . . 
+. E . . . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 5 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+. P . . . 
+❤️ Vida Jugador: 5 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. E . . . 
+. . P . . 
+❤️ Vida Jugador: 5 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. E . . . 
+. P . . . 
+❤️ Vida Jugador: 5 | �� Vida Enemigo: 10
+Mover > w
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. P . . . 
+E . . . . 
+�� ¡Te atacan! (-3 HP)
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 10
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+P . . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 10
+Mover > d
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+E . . . . 
+. P . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 10
+Mover > a
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 
+P E . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 10
+Mover > x
+⚔️ Buen ataque (-5 HP)
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. E . . . 
+P . . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 5
+Mover > w
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+P . . . . 
+. E . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 5
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. E . . . 
+. . . . . 
+P . . . . 
+❤️ Vida Jugador: 2 | �� Vida Enemigo: 5
+Mover > s
+
+--- MAPA ---
+. . . . . 
+. . . . . 
+. . . . . 
+. E . . . 
+P . . . . 
+�� ¡Te atacan! (-3 HP)
+
+�� Has sido derrotado...
+	\end{lstlisting}
+
+
+\end{document}
