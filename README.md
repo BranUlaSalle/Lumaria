@@ -9,11 +9,11 @@
   </a>
 </div>
 
-# Titulo del proyecto: Soul Knight fan remake
+# Titulo del proyecto: Lumaria
 
 
 # Descripcion:
-"agregar el titulo del proyecto " es un titulo 2d teniendo como base original al videojuego soul knight, a diferencia de soul knight, este videojuego esta exclusivamentes para correrlo (jugarlo) en computadoras o laptops, skins divertidas, un mapa sencillo e intuitivo. Ademas agrega el modo multiplayer local. Por ahora se tiene planeado crear el videojuego en Unity usando las tecnologias vistas en clases como threads para el modo multiplayer o solamente para los enemigos a los que nuestro personaje debe enfrentar.
+Lumaria es un titulo 2d teniendo como base original al videojuego soul knight, a diferencia de soul knight, este videojuego esta exclusivamentes para correrlo (jugarlo) en computadoras o laptops, skins divertidas, un mapa sencillo e intuitivo. Ademas agrega el modo multiplayer local. Por ahora se tiene planeado crear el videojuego en Unity usando las tecnologias vistas en clases como threads para el modo multiplayer o solamente para los enemigos a los que nuestro personaje debe enfrentar.
 
 ## Entorno del juego
 Por ahora la historia del juego es sencilla; el personaje jugable aparece en una habitacion con algun tipo de arma, la habitacion esta conectada por un camino a otra habitacion, cuando nuestro personaje entra a la siguiente habitacion, se cierran las puertas y aparecen los enemigos, el personaje tendra que defenderse con su arma hasta que no quede ni uno solo; despues de haber terminado con los enemigo las puertas se abriran dando paso a mas habitaciones, cada nivel tiene 5 habitaciones, y el juego cuenta con 5 niveles, en el ultimo en nivel (5) habra un boss (jefe final), este tiene mucha vida y costara mucho acabar con el.
@@ -23,7 +23,6 @@ Por ahora la historia del juego es sencilla; el personaje jugable aparece en una
 - enemigos
 - jefe final
 - mapa
-- objetos (curas o bebidas)
 - armas  
 
 # Herramientas:
