@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6352fa5c31046ce49ba08654a4a7e7d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3130852931984877317
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_0
+  - first:
+      213: 3743182123202200692
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_1
+  - first:
+      213: -7349751137467437251
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_2
+  - first:
+      213: 1863927455083502136
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_3
+  - first:
+      213: -4277500426424047000
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_4
+  - first:
+      213: 7977084985210416988
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_5
+  - first:
+      213: 785021420366519218
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_6
+  - first:
+      213: -8939655085069178539
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_7
+  - first:
+      213: -5135547611582479060
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_8
+  - first:
+      213: -4343225501431044810
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_9
+  - first:
+      213: -4964695654064477580
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_10
+  - first:
+      213: -4079972246276110824
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_11
+  - first:
+      213: 9136676609921157827
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_12
+  - first:
+      213: 1146233601402837422
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_13
+  - first:
+      213: -7205852810601022374
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_14
+  - first:
+      213: -4713176776915373147
+    second: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf81d09a8d9fc84d0800000000000000
+      internalID: -3130852931984877317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 705
+        width: 97
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4744f0f0f4472f330800000000000000
+      internalID: 3743182123202200692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 707
+        width: 228
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3feab7f740700a90800000000000000
+      internalID: -7349751137467437251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 708
+        width: 234
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a995715200ed910800000000000000
+      internalID: 1863927455083502136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 704
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aa96c760443a4c0800000000000000
+      internalID: -4277500426424047000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_5
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 696
+        width: 167
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fa196978c44be60800000000000000
+      internalID: 7977084985210416988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 699
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbd40692d4f4ea00800000000000000
+      internalID: 785021420366519218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 382
+        width: 253
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559efef7017ffe380800000000000000
+      internalID: -8939655085069178539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 386
+        width: 261
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25458418aedab8b0800000000000000
+      internalID: -5135547611582479060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 385
+        width: 284
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635e8c7fa63c9b3c0800000000000000
+      internalID: -4343225501431044810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 219
+        width: 151
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47aaf815b9bd91bb0800000000000000
+      internalID: -4964695654064477580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 56
+        width: 170
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816824fcbd60167c0800000000000000
+      internalID: -4079972246276110824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 62
+        width: 286
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca88f1f7fefbce70800000000000000
+      internalID: 9136676609921157827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 44
+        width: 338
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea99b31336d38ef00800000000000000
+      internalID: 1146233601402837422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_14
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 47
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c30680c0baffb90800000000000000
+      internalID: -7205852810601022374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 60
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3b65061be679eb0800000000000000
+      internalID: -4713176776915373147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_0: -3130852931984877317
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_1: 3743182123202200692
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_10: -4964695654064477580
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_11: -4079972246276110824
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_12: 9136676609921157827
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_13: 1146233601402837422
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_14: -7205852810601022374
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_15: -4713176776915373147
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_2: -7349751137467437251
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_3: 1863927455083502136
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_4: -4277500426424047000
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_5: 7977084985210416988
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_6: 785021420366519218
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_7: -8939655085069178539
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_8: -5135547611582479060
+      Gemini_Generated_Image_7xmr837xmr837xmr-artguru (1)_9: -4343225501431044810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

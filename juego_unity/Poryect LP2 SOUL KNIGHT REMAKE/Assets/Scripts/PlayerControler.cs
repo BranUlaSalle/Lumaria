@@ -8,6 +8,10 @@ using UnityEngine;
 ///Clase principal del controlador del jugador, monoBehaviour es la clase base de todos los scripts de Unity
 public class PlayerController : MonoBehaviour
 {
+    //vida de jugador 
+    public float vida = 100f;        // vida actual
+    public float vidaMaxima = 100f;  // vida máxima
+
     //velocidad del jugador
     public float velocidad = 5f;
     //variable de tipo booleana para controlar la orientacion del jugador

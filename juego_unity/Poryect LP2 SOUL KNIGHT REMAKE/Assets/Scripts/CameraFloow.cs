@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
-{
-    public Transform target; // Arrastra tu personaje aquí
-    public float smoothSpeed = 0.125f;
-    public Vector3 offset;
 
-    void LateUpdate()
+public class movimiento_camara : MonoBehaviour
+{
+   public Transform objetivo;
+   public float velocidadcamara = 0.025f ;
+   public Vector3 desplazamiento ;
+
+    private void LateUpdate()
     {
-        if (target != null)
-        {
-            Vector3 desiredPosition = target.position + offset;
-            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-            transform.position = smoothedPosition;
-        }
+      Vector3 posiciondeseada = objetivo.position + desplazamiento;
+      Vector3 posicionsuavisada = Vector3.Lerp(transform.position, posiciondeseada, velocidadcamara );
+
+      transform.position = posicionsuavisada;
+
     }
 }

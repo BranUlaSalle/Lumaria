@@ -1,4 +1,3 @@
-repository "Poryect LP2 SOUL KNIGHT REMAKE/Poryect LP2 SOUL KNIGHT REMAKE@4674138246295@cloud"
+rep "Poryect LP2 SOUL KNIGHT REMAKE/Poryect LP2 SOUL KNIGHT REMAKE@4674138246295@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"
